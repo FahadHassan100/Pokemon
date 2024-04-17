@@ -1,0 +1,125 @@
+.mainLogo{
+  width: 115px;
+}
+.parallax-container {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.parallax {
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.parallax2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bannerHeading{
+  width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.bannerHeading h2{
+  text-align: center;
+    color: #fff;
+    padding-top: 150px;
+    margin: 0;
+
+}   
+.searchInput{
+  display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.searchInput p{
+  line-height: 35px;
+  margin: 0 15px;
+  
+}
+
+.topNav{
+  display: flex;
+    justify-content: center;
+}
+
+.seaInp{
+  width: 350px;
+  height: 31px;
+    border-radius: 8px;
+}
+
+  .category-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 25px 60px;
+  }
+  .catboxes a {
+    text-decoration: none;
+  }  
+  .category-box:hover {
+    transform: translateY(-5px);
+  }
+  .category-box img {
+    object-fit: cover;
+  }
+  .content {
+    padding: 15px;
+  }
+
+  .mainContent{
+    padding: 20px;
+  }
+
+  .catboxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.backdrop{
+  background-color: rgb(15 12 12 / 80%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.PDmodal{
+  z-index: 5;
+  width: 35vw;
+  height: 75vh;
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 35px;
+  padding: 35px 0;
+}
+
+.pokemonAbilities{
+  text-align: left;
+    padding: 10px 50px;
+}
+
+.modalHeader{
+  text-align: right;
+}
+
+.modalHeader button{
+  margin-right: 30px;
+}
